@@ -1,0 +1,91 @@
+[{
+  "_id": "64b80b906c294a2f9727b19b",
+  "appid": "sfx0jh",
+  "name": "1",
+  "source": {
+    "code": "import cloud from '@lafjs/cloud'\nexport default async function (ctx: FunctionContext) {\n  console.log('welcome')\n  return { data: 'hi, laf' }\n}",
+    "compiled": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst _2_1 = require(\"@/2\");\nasync function default_1(ctx) {\n    console.log(ctx.request);\n    console.log('.');\n    return (0, _2_1.hello)();\n}\nexports.default = default_1;\n\"",
+    "version": 4
+  },
+  "desc": "",
+  "createdBy": "6407ee2ab5f23c0ca8875029",
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "tags": [],
+  "createdAt": "2023-07-19T16:13:04.779Z",
+  "updatedAt": "2023-07-21T02:28:26.511Z",
+  "params": {
+    "queryParams": [],
+    "headerParams": [
+      {
+        "name": "locale",
+        "value": "zh"
+      }
+    ],
+    "runningMethod": "GET"
+  }
+},
+{
+  "_id": {
+    "$oid": "64bba8b3bdf29f2d49bb3702"
+  },
+  "appid": "sfx0jh",
+  "name": "2",
+  "source": {
+    "code": "import cloud from '@lafjs/cloud'\nexport default async function (ctx: FunctionContext) {\n  console.log('welcome')\n  return { data: 'hi, laf' }\n}",
+    "compiled": "Object.defineProperty(exports, \"__esModule\", { value: true });\nexports.hello = void 0;\nasync function default_1(ctx) {\n    console.log(ctx.request);\n    console.log('');\n    return '111';\n}\nexports.default = default_1;\nfunction hello() {\n    console.log('hello');\n    return 'hello';\n}\nexports.hello = hello;",
+    "version": 4
+  },
+  "desc": "",
+  "createdBy": "6407ee2ab5f23c0ca8875029",
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "tags": [],
+  "createdAt": "2023-07-19T16:13:04.779Z",
+  "updatedAt": "2023-07-21T02:28:26.511Z",
+  "params": {
+    "queryParams": [],
+    "headerParams": [
+      {
+        "name": "locale",
+        "value": "zh"
+      }
+    ],
+    "runningMethod": "GET"
+  }
+},
+{
+  "_id": {
+    "$oid": "64bbbd117816f04f1c07ac07"
+  },
+  "appid": "sfx0jh",
+  "name": "3",
+  "source": {
+    "code": "import cloud from '@lafjs/cloud'\nexport default async function (ctx: FunctionContext) {\n  console.log('welcome')\n  return { data: 'hi, laf' }\n}",
+    "compiled": "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst _2_1 = require(\"@/2\");\nasync function default_1(ctx) {\n    console.log(ctx.request);\n    console.log('.');\n    return (0, _2_1.hello)();\n}\nexports.default = default_1;\n\"",
+    "version": 4
+  },
+  "desc": "",
+  "createdBy": "6407ee2ab5f23c0ca8875029",
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "tags": [],
+  "createdAt": "2023-07-19T16:13:04.779Z",
+  "updatedAt": "2023-07-21T02:28:26.511Z",
+  "params": {
+    "queryParams": [],
+    "headerParams": [
+      {
+        "name": "locale",
+        "value": "zh"
+      }
+    ],
+    "runningMethod": "GET"
+  }
+}]
